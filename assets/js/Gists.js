@@ -109,13 +109,13 @@ const Gists = {
                   </a>
                 </div>
               </td>
-              <td>
+              <td class="small-font">
                 {{ Object.keys(gist.files).length }}
               </td>
-              <td>
+              <td class="small-font">
                 {{ gist.updated_at.slice(0, 10) }}
               </td>
-              <td>
+              <td class="small-font">
                 {{ gist.created_at.slice(0, 10) }}
               </td>
           </tr>
