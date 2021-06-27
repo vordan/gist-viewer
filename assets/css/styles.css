@@ -52,3 +52,15 @@ tr:nth-child(even) {
 a {
   color: var(--highlight);
 }
+
+.gist-description {
+  width: 100%;
+  font-size: 0.9em;
+  padding-top: 5px;
+}
+
+.gist-url {
+  width: 100%;
+  font-size: 0.9em;
+  padding-top: 5px;
+}
