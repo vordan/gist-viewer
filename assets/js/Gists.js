@@ -98,8 +98,8 @@ const Gists = {
           </tr>
           <tr v-for="gist in gists">
               <td>
-                <div class="gist-description">
-                  <a :href="gist.html_url">
+                <div>
+                  <a class="gist-description" :href="gist.html_url">
                     {{ gist.description }}
                   </a>
                 </div>
