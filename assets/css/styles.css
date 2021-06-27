@@ -54,6 +54,8 @@ a {
 }
 
 .gist-description {
+  text-decoration:none;
+  color:#424242;
   width: 100%;
   font-size: 0.9em;
   padding-top: 5px;
