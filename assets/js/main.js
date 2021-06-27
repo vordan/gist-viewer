@@ -5,7 +5,7 @@ import { createApp } from "https://unpkg.com/vue@3.0.7/dist/vue.esm-browser.js";
 import Gists from "./Gists.js";
 import GitHubCorner from "./GitHubCorner.js";
 
-const USERNAME = "MichaelCurrin";
+const USERNAME = "vordan";
 const REPO_NAME = "gist-viewer";
 
 const app = createApp({
