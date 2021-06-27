@@ -99,7 +99,7 @@ const Gists = {
           <tr v-for="gist in gists">
               <td>
                 <a :href="gist.html_url">
-                  {{ gist.html_url }}
+                  {{ gist.description }}
                 </a>
               </td>
               <td>
