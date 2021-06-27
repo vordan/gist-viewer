@@ -40,7 +40,7 @@ main {
 table,
 th,
 td {
-  border: 0.5px solid black;
+  border: 0.5px solid #ccc;
   border-collapse: collapse;
   padding: 10px;
 }
@@ -63,4 +63,8 @@ a {
   width: 100%;
   font-size: 0.9em;
   padding-top: 5px;
+}
+
+.small-font {
+  font-size: 0.8em;
 }
