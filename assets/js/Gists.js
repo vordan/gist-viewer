@@ -98,9 +98,16 @@ const Gists = {
           </tr>
           <tr v-for="gist in gists">
               <td>
-                <a :href="gist.html_url">
-                  {{ gist.description }}
-                </a>
+                <div class="gist-description">
+                  <a :href="gist.html_url">
+                    {{ gist.description }}
+                  </a>
+                </div>
+                <div class="gist-url">
+                  <a :href="gist.html_url">
+                    {{ gist.html_url }}
+                  </a>
+                </div>
               </td>
               <td>
                 {{ Object.keys(gist.files).length }}
